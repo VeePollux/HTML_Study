@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="#" method="GET">
+        <p>Formulário</p>
+
+        <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome completo" required><br>
+        </p>
+
+        <p>
+        <br><label for="dev">É dev</label>
+        <input type="checkbox" name="dev" id="dev" value="sim"><br>
+        <br><label for="evd">É evd</label>
+        <input type="checkbox" name="evd" id="evd" value="sim" checked><br> 
+        </p>
+
+        <p>Genero: <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino"><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino"><br>
+        <label for="segredo">Segredo</label>
+        <input type="radio" name="genero" id="segredo" value="segredo"><br>
+        </p>
+
+        <p>
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" ><br>
+        </p>
+
+        <p>
+        <label for="datetime">Data e hora:</label>
+        <input type="datetime-local" id="datetime" name="datetime" value="2021-10-10T00:00:01"><br>
+        </p>
+
+        <p>
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time" value="20:00:01"><br>
+        </p>
+
+        <p>
+        <label for="color">Cor:</label>
+        <input type="color" id="color" name="color" value="#FFFF00" ><br>
+        </p>
+
+        <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ex.: email@email.com" ><br>
+        </p>
+
+        <p>
+        <label for="arquivo">Foto:</label>
+        <input type="file" id="arquivo" name="arquivo" accept=".png, .svg, image/*" multiple ><br>
+        </p>
+
+        <p>
+        <label for="number">Quantidade:</label>
+        <input type="number" id="number" name="number" placeholder="Digite um número"
+        max="10" min="-10" step="5"  ><br>
+        </p>
+
+        <p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" ><br>
+        </p>
+
+        <p>
+        <label for="range">range:</label>
+        <input type="range" id="range" name="range" min="1" max="10" ><br>
+        </p>
+
+        <p>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" placeholder="URL"><br>
+        </p>
+
+        <p>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="Search"><br>
+        </p>
+
+        <p>
+            <label for="select">Selecione:</label>
+            <select id="select" name="select" >
+                <optgroup label="Teste1">
+                    <option value="Q1" label="L1" disabled></option>
+                    <option value="Q2"label="L2"></option>
+                    <option value="Q3"label="L3"></option>
+                </optgroup>
+                <optgroup label="Teste2">
+                    <option value="Q4" label="L4" ></option>
+                    <option value="Q5"label="L5"></option>
+                    <option value="Q6"label="L6"></option>
+                </optgroup>
+            </select>
+            </p>
+            <p>
+                <label for="texta">Texto:</label>
+                <textarea name="texta" id="texta" cols="30" rows="10" placeholder="Texto"></textarea>
+            </p>
+        <p>
+        <br><button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+        </p>
+    </form>
+
+</body>
+</html>
